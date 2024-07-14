@@ -11,7 +11,7 @@ import SwiftUI
 struct RedSquareApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlowScreen()
         }
     }
 }
