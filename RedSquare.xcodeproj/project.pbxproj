@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B575FE292C414F170020CE24 /* RedSquareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE282C414F170020CE24 /* RedSquareApp.swift */; };
-		B575FE2B2C414F170020CE24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE2A2C414F170020CE24 /* ContentView.swift */; };
 		B575FE2D2C414F180020CE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B575FE2C2C414F180020CE24 /* Assets.xcassets */; };
 		B575FE302C414F180020CE24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B575FE2F2C414F180020CE24 /* Preview Assets.xcassets */; };
+		B575FE372C4267810020CE24 /* RedSquareMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE362C4267810020CE24 /* RedSquareMovement.swift */; };
+		B575FE392C4278150020CE24 /* SquaresInCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE382C4278150020CE24 /* SquaresInCorners.swift */; };
+		B575FE3C2C42FB320020CE24 /* FlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE3B2C42FB320020CE24 /* FlowScreen.swift */; };
+		B578A71B2C4A9193000CB73D /* SquareMovementForAllPhones.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578A71A2C4A9193000CB73D /* SquareMovementForAllPhones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B575FE252C414F170020CE24 /* RedSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B575FE282C414F170020CE24 /* RedSquareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSquareApp.swift; sourceTree = "<group>"; };
-		B575FE2A2C414F170020CE24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B575FE2C2C414F180020CE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B575FE2F2C414F180020CE24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B575FE362C4267810020CE24 /* RedSquareMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSquareMovement.swift; sourceTree = "<group>"; };
+		B575FE382C4278150020CE24 /* SquaresInCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresInCorners.swift; sourceTree = "<group>"; };
+		B575FE3B2C42FB320020CE24 /* FlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowScreen.swift; sourceTree = "<group>"; };
+		B578A71A2C4A9193000CB73D /* SquareMovementForAllPhones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareMovementForAllPhones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		B575FE272C414F170020CE24 /* RedSquare */ = {
 			isa = PBXGroup;
 			children = (
+				B575FE3A2C42FADF0020CE24 /* Flow */,
 				B575FE282C414F170020CE24 /* RedSquareApp.swift */,
-				B575FE2A2C414F170020CE24 /* ContentView.swift */,
+				B575FE382C4278150020CE24 /* SquaresInCorners.swift */,
+				B575FE362C4267810020CE24 /* RedSquareMovement.swift */,
+				B578A71A2C4A9193000CB73D /* SquareMovementForAllPhones.swift */,
 				B575FE2C2C414F180020CE24 /* Assets.xcassets */,
 				B575FE2E2C414F180020CE24 /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				B575FE2F2C414F180020CE24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B575FE3A2C42FADF0020CE24 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B575FE3B2C42FB320020CE24 /* FlowScreen.swift */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B575FE2B2C414F170020CE24 /* ContentView.swift in Sources */,
+				B575FE392C4278150020CE24 /* SquaresInCorners.swift in Sources */,
+				B578A71B2C4A9193000CB73D /* SquareMovementForAllPhones.swift in Sources */,
 				B575FE292C414F170020CE24 /* RedSquareApp.swift in Sources */,
+				B575FE3C2C42FB320020CE24 /* FlowScreen.swift in Sources */,
+				B575FE372C4267810020CE24 /* RedSquareMovement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
