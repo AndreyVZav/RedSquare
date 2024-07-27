@@ -9,6 +9,7 @@ import SwiftUI
 enum MenuFlowRoute: Hashable {
     case move
     case versionTwo
+    case versionBool
 }
 struct FlowScreen: View {
     var body: some View {
@@ -20,6 +21,8 @@ struct FlowScreen: View {
                         RedSquareMovement()
                     case .versionTwo:
                         SquareMovementForAllPhones()
+                    case .versionBool:
+                        SquareMovementForBool()
                     }
                 }
         }

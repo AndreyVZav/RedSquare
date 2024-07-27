@@ -14,6 +14,7 @@
 		B575FE392C4278150020CE24 /* SquaresInCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE382C4278150020CE24 /* SquaresInCorners.swift */; };
 		B575FE3C2C42FB320020CE24 /* FlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575FE3B2C42FB320020CE24 /* FlowScreen.swift */; };
 		B578A71B2C4A9193000CB73D /* SquareMovementForAllPhones.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578A71A2C4A9193000CB73D /* SquareMovementForAllPhones.swift */; };
+		B5E197AB2C555EEE005D22E3 /* SquareMovementForBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E197AA2C555EEE005D22E3 /* SquareMovementForBool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B575FE382C4278150020CE24 /* SquaresInCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresInCorners.swift; sourceTree = "<group>"; };
 		B575FE3B2C42FB320020CE24 /* FlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowScreen.swift; sourceTree = "<group>"; };
 		B578A71A2C4A9193000CB73D /* SquareMovementForAllPhones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareMovementForAllPhones.swift; sourceTree = "<group>"; };
+		B5E197AA2C555EEE005D22E3 /* SquareMovementForBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareMovementForBool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B575FE382C4278150020CE24 /* SquaresInCorners.swift */,
 				B575FE362C4267810020CE24 /* RedSquareMovement.swift */,
 				B578A71A2C4A9193000CB73D /* SquareMovementForAllPhones.swift */,
+				B5E197AA2C555EEE005D22E3 /* SquareMovementForBool.swift */,
 				B575FE2C2C414F180020CE24 /* Assets.xcassets */,
 				B575FE2E2C414F180020CE24 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				B575FE392C4278150020CE24 /* SquaresInCorners.swift in Sources */,
 				B578A71B2C4A9193000CB73D /* SquareMovementForAllPhones.swift in Sources */,
 				B575FE292C414F170020CE24 /* RedSquareApp.swift in Sources */,
+				B5E197AB2C555EEE005D22E3 /* SquareMovementForBool.swift in Sources */,
 				B575FE3C2C42FB320020CE24 /* FlowScreen.swift in Sources */,
 				B575FE372C4267810020CE24 /* RedSquareMovement.swift in Sources */,
 			);

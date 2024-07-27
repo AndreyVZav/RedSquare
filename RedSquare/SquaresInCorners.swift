@@ -17,11 +17,13 @@ struct SquaresInCorners: View {
                 Rectangle().fill(.red).frame(width: 100, height: 100)
                 
             }
-            NavigationLink("Снова нажми на меня", value: MenuFlowRoute.versionTwo).buttonStyle(.borderedProminent)
             Spacer()
-            NavigationLink("Нажми меня", value: MenuFlowRoute.move)
+            NavigationLink("По координатам", value: MenuFlowRoute.move)
                 .buttonStyle(.borderedProminent)
-               
+            NavigationLink("С помощью прозрачности", value: MenuFlowRoute.versionTwo).buttonStyle(.borderedProminent)
+            NavigationLink("С помощью Bool", value: MenuFlowRoute.versionBool)
+                .buttonStyle(.borderedProminent)
+            Spacer()
             HStack {
                 Rectangle().fill(.red).frame(width: 100, height: 100)
                 Spacer()

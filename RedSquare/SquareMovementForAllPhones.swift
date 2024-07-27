@@ -33,20 +33,7 @@ struct SquareMovementForAllPhones: View {
         
     }
 
-//    struct ButtonRightDown: View {
-//        @Binding var colorless: Int
-//        @Binding var up: Int
-//        @Binding var bright: Int
-//        @Binding var down: Int
-//        var body: some View {
-//            Button(action: {
-//                up = colorless
-//                down = bright
-//            }, label: {
-//                Text("Вниз направо").font(.title2)
-//            }).buttonStyle(.borderedProminent)
-//        }
-//    }
+
     
     struct squareUp: View {
         var body: some View {
@@ -54,7 +41,7 @@ struct SquareMovementForAllPhones: View {
                 HStack {
                     Rectangle().fill(.red).frame(width: 100, height: 100)
                     Spacer()
-                    Text("")
+                    
                 }
                 Spacer()
             }
