@@ -20,7 +20,8 @@ struct SquareMovementForBool: View {
                     if !inRith {
                         Spacer()
                     }
-                    Color.yellow.frame(width: 100, height: 100)
+                    Color.yellow.frame(width: 100, height: 100).animation(Animation.linear(duration: 1))
+
                     if inRith {
                         Spacer()
                     }

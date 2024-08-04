@@ -18,7 +18,8 @@ struct RedSquareMovement: View {
     var down = 670
     
     var body: some View {
-        Rectangle().fill(.red).frame(width: 100, height: 100,alignment: .topLeading).position(x: CGFloat(squareX), y: CGFloat(squareY))
+        Rectangle().fill(.red).frame(width: 100, height: 100,alignment: .topLeading).position(x: CGFloat(squareX), y: CGFloat(squareY)).animation(Animation.linear(duration: 1))
+
         
         Button(action: {
             squareX = right
