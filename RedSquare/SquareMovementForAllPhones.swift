@@ -14,11 +14,14 @@ struct SquareMovementForAllPhones: View {
     @State var down = 0.2
     var body: some View {
         
-        squareUp().opacity(up).animation(Animation.linear(duration: 2))
+        squareUp().opacity(up)
 
         Button(action: {
-            up = bright
-            down = colorless
+            withAnimation {
+                up = bright
+                down = colorless
+            }
+            
         }, label: {
             Text("Вверх налево").font(.title2)
         }).buttonStyle(.borderedProminent)

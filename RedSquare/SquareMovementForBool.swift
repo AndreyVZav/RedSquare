@@ -20,7 +20,7 @@ struct SquareMovementForBool: View {
                     if !inRith {
                         Spacer()
                     }
-                    Color.yellow.frame(width: 100, height: 100).animation(Animation.linear(duration: 1))
+                    Color.yellow.frame(width: 100, height: 100)
 
                     if inRith {
                         Spacer()
@@ -32,10 +32,15 @@ struct SquareMovementForBool: View {
                     Spacer()
                 }
                 Button("LeftRight") {
-                    inRith = !inRith
+                    withAnimation {
+                        inRith = !inRith
+                    }
+                    
                 }
                 Button("UpDown") {
-                    inUp = !inUp
+                    withAnimation {
+                        inUp = !inUp
+                    }
                 }
                 
             }
